@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');">
+        <title>Document</title>
+    </head>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+    body{
+        background-color: #d1d1d1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 300px;
+        height: 450px;
+        background-color: #f8f5f5;
+    }
+    .card .box-logo{
+        height: 230px;
+        border-bottom: 1px solid black;
+    }
+    .card .box-logo .image img{
+        width: 250px;
+        height: 200px;
+        background-color: blck;
+        margin-left: 25px;
+        background-color: green;
+    }
+    .card .box-logo p{
+       text-align: center;
+    }
+    .card .detail{
+        padding-top: 10px;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+    }
+    .card .detail .head{
+        width: 200px;
+        height: 170px;
+        text-align: center;
+    }
+     .card .detail .head div{
+        margin-bottom: 15px;
+    }
+    .card .qr{
+        width: 100%;
+        height: 70px;
+    }
+    .card .qr img{
+        width: 100%;
+        height: 100%;      
+    }
+</style>
+    <body>
+        <div class="card">
+            <div class="box-logo">
+                <div class="image">
+                    <img src="img/istockphoto-1349223345-612x612.jpg" alt="">
+                </div>
+                <div class="address">
+                    <p>Company Name Address</p>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="head">
+                    <div>
+                        <h3>PARKING RECEIPT</h3>
+                        <p>02/02/2022</p>
+                    </div>
+                    <div>
+                        <p>from: 10:50 am</p>
+                        <p>to: 4:30 pm</p>
+                    </div>
+                    <div>
+                        <h4>PAID : $7.00</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="qr">
+                <img src="img/barcode-product-distribution-icon-symbol-600nw-2105506895.webp" alt="">
+            </div>
+        </div>
+    </body>
+</html>
